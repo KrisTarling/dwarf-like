@@ -5453,7 +5453,13 @@ button.close {
 body {
   background: #222;
   color: #FFF;
-  text-align: center; }
+  text-align: center;
+  font-family: monospace; }
 
 .container-fixed {
   max-width: 830px; }
+
+#gamebox {
+  border: 1px solid #FFF;
+  width: 800px;
+  height: 600px; }

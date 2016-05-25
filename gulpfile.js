@@ -6,9 +6,6 @@ var gutil = require("gulp-util");
 var webpack = require("webpack");
 var WebpackDevServer = require("webpack-dev-server");
 
-
-
-
 gulp.task('haml', function () {
   gulp.src('./src/index.haml')
     .pipe(haml())

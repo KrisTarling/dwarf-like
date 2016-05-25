@@ -1,4 +1,3 @@
-
 let reducer = function(state, action) {
 	switch (action.type) {
 		case 'ACTION_NAME':
